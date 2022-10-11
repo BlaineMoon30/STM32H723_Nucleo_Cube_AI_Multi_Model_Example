@@ -199,7 +199,7 @@ static int ai_run(void)
 
   if (batch != 1) {
     ai_log_err(ai_model_1_get_error(model_2),
-        "ai_model_1_run");
+        "ai_model_2_run");
     return -1;
   }else{
     result_2 = *((ai_float*)data_outs[AI_MODEL_2]);
